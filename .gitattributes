@@ -5,3 +5,4 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+*.resS filter=lfs diff=lfs merge=lfs -text
